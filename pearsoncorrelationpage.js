@@ -17,11 +17,9 @@ window.onload = function()
 
         output("Pearson Correlation Coefficient rho = " + rho + "<br/><br/>");
     }
-};
+}
 
-//--------------------------------------------------------
-// FUNCTION printData
-//--------------------------------------------------------
+
 function printData(independent, dependent)
 {
     for(let i = 0, l = independent.length; i < l; i++)

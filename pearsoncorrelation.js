@@ -1,7 +1,4 @@
 
-//--------------------------------------------------------
-// FUNCTION pearsonCorrelation
-//--------------------------------------------------------
 function pearsonCorrelation(independent, dependent)
 {
     // covariance
@@ -22,9 +19,7 @@ function pearsonCorrelation(independent, dependent)
     return rho;
 }
 
-//--------------------------------------------------------
-// FUNCTION arithmeticMean
-//--------------------------------------------------------
+
 function arithmeticMean(data)
 {
     let total = 0;
@@ -35,9 +30,7 @@ function arithmeticMean(data)
     return total / data.length;
 }
 
-//--------------------------------------------------------
-// FUNCTION mean_of_products
-//--------------------------------------------------------
+
 function meanOfProducts(data1, data2)
 {
     let total = 0;
@@ -48,9 +41,7 @@ function meanOfProducts(data1, data2)
     return total / data1.length;
 }
 
-//--------------------------------------------------------
-// FUNCTION standardDeviation
-//--------------------------------------------------------
+
 function standardDeviation(data)
 {
     let squares = [];
